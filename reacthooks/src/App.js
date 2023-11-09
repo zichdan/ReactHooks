@@ -1,10 +1,13 @@
 import './App.css';
-import StateTutorial from './UseState/Statetutorial';
+import ReducerTutorial from './UseReducer/ReducerTutorial';
+// import StateTutorial from './UseState/Statetutorial';
+
 
 function App() {
   return (
     <div className="App">
-      <StateTutorial/>
+      <ReducerTutorial/>
+      {/* <StateTutorial/> */}
     </div>
   );
 }
